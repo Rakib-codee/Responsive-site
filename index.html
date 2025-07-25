@@ -158,10 +158,18 @@
             </div>
         </div>
       </section>
-      <section>
-        <div>
-            <img src="assets/news-letter-bg.png" alt="">
+
+      <section class="relative w-[1440px] h-[535px] overflow-hidden ">
+        <img src="assets/news-letter-bg.png" alt="Flowers" class="absolute inset-0 pt-5 object-cover">
+        <div class="absolute inset-0"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+          <h2 class="text-[50px] font-bold mb-6" style="font-family: 'Noto Serif', serif;">Join the colorful Bunch</h2>
+          <div class="flex w-full max-w-xl">
+            <input type="email" placeholder="Write email" class="flex-grow p-3 bg-white text-black rounded-l-md outline-none">
+            <button class="bg-orange-500 text-white px-6 py-3 rounded-r-md hover:bg-orange-600">Subscribe</button>
+          </div>
         </div>
       </section>
+      
 </body>
 </html>
