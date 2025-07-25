@@ -11,7 +11,7 @@
     h1, h2, h3 { font-family: 'Noto Serif', serif; }
   </style>
 </head>
-<body class="bg-[#F5F8FF] mx-[150px]">
+<body class="bg-[#F5F8FF] mx-0 sm:mx-[150px]">
 
   <!-- Navbar -->
   <header class="px-4 md:px-16">
@@ -30,24 +30,24 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="flex flex-col md:flex-row items-center justify-between px-4 md:px-16 py-10 space-y-10 md:space-y-0">
+  <section class="flex flex-col md:flex-row items-center justify-between px-2 sm:px-4 md:px-16 py-10 space-y-10 md:space-y-0">
     <div class="max-w-xl">
       <h1 class="text-5xl md:text-6xl font-bold leading-tight">ALWAYS <span class="text-[#E95A08]">FRESH</span><br><span class="text-[#E95A08]">FLOWERS</span></h1>
       <p class="mt-6 text-lg md:text-xl text-[#626366] leading-relaxed">
         Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
       </p>
     </div>
-    <img src="assets/hero-flower.png" alt="Hero Flower" class="w-full md:w-1/2">
+    <img src="assets/hero-flower.png" alt="Hero Flower" class="w-full md:w-1/2 max-w-xs sm:max-w-full">
   </section>
 
  
   <section class="py-12 text-center px-4">
     <h2 class="text-5xl font-bold"><span class="text-[#E95A08]">Our</span> Plants</h2>
     <p class="text-lg text-gray-700 mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. <br class="hidden md:block"> From classic roses to exotic blooms, we offer a wide variety of fresh flowers.</p>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto mt-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto mt-10">
       <!-- Repeat Card 8 times -->
       <div class="p-4 flex flex-col items-center">
-        <img src="assets/sample-flower-image.png" class="w-full h-60 object-cover mb-4 rounded" alt="Lily Blossom" />
+        <img src="assets/sample-flower-image.png" class="w-full h-48 sm:h-60 object-cover mb-4 rounded" alt="Lily Blossom" />
         <div class="font-semibold">Lily Blossom</div>
         <div class="text-sm font-bold mb-2">20 USD</div>
         <button onclick="alert('Flower Added to Cart')" class="bg-orange-500 text-white px-6 py-2 rounded w-full">Add to Cart</button>
@@ -96,12 +96,12 @@
       </div>
     </div>
   </section>
-  <section class="flex flex-col lg:flex-row items-center justify-center px-4 md:px-16 py-16 gap-10">
+  <section class="flex flex-col lg:flex-row items-center justify-center px-2 sm:px-4 md:px-16 py-10 sm:py-16 gap-6 sm:gap-10">
     <div class="relative w-full max-w-md">
-      <img src="assets/flower-store.png" alt="Flower Shop" class="w-full h-auto rounded-md">
-      <img src="assets/trusted-badge.png" alt="Trusted Seller" class="absolute top-0 right-0 w-32 md:w-72">
+      <img src="assets/flower-store.png" alt="Flower Shop" class="w-full h-auto rounded-md max-w-xs sm:max-w-md">
+      <img src="assets/trusted-badge.png" alt="Trusted Seller" class="absolute top-0 right-0 w-20 sm:w-32 md:w-72">
     </div>
-    <div class="max-w-xl">
+    <div class="max-w-xl mt-6 sm:mt-0">
       <h2 class="text-4xl md:text-5xl font-bold mb-6">Flower & Plants Lover</h2>
       <ul class="text-lg text-[#626366] space-y-4">
         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -110,13 +110,13 @@
       </ul>
     </div>
   </section>
-  <section class="py-12 px-4 text-center">
+  <section class="py-12 px-2 sm:px-4 text-center">
     <h2 class="text-5xl font-bold"><span class="text-[#E95A08]">Latest</span> Deals</h2>
     <p class="text-lg text-[#626366] mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop.<br class="hidden md:block"> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto mt-10">
       <div class="flex flex-col gap-6">
         <div class="relative rounded-xl overflow-hidden">
-          <img src="assets/deal-bloom.png" alt="" class="w-full h-48 object-cover">
+          <img src="assets/deal-bloom.png" alt="" class="w-full h-32 sm:h-48 object-cover">
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center text-white text-center">
             <div>
               <h3 class="text-lg font-bold">60% Off | Bloom Plant</h3>
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="relative rounded-xl overflow-hidden">
-          <img src="assets/deal-ana.png" alt="" class="w-full h-48 object-cover">
+          <img src="assets/deal-ana.png" alt="" class="w-full h-32 sm:h-48 object-cover">
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center text-white text-center">
             <div>
               <h3 class="text-lg font-bold">30% Off | Ana Plant</h3>
@@ -135,7 +135,7 @@
         </div>
       </div>
       <div class="relative md:col-span-2 rounded-xl overflow-hidden">
-        <img src="assets/deal-zabo.png" alt="" class="w-full h-[423px] object-cover">
+        <img src="assets/deal-zabo.png" alt="" class="w-full h-40 sm:h-[423px] object-cover">
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center text-white text-center">
           <div>
             <h3 class="text-3xl md:text-4xl font-bold">25% Off | Zabo Plant</h3>
@@ -145,23 +145,23 @@
       </div>
     </div>
   </section>
-  <section class="relative w-full h-[500px] overflow-hidden mt-12">
+  <section class="relative w-full h-72 sm:h-[500px] overflow-hidden mt-12">
     <img src="assets/news-letter-bg.png" alt="Newsletter Background" class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white px-4">
-      <h2 class="text-4xl md:text-5xl font-bold mb-6">Join the Colorful Bunch</h2>
-      <div class="flex w-full max-w-xl">
-        <input type="email" placeholder="Write email" class="flex-grow p-3 bg-white text-black rounded-l-md outline-none">
-        <button class="bg-orange-500 text-white px-6 py-3 rounded-r-md hover:bg-orange-600">Subscribe</button>
+    <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white px-2 sm:px-4">
+      <h2 class="text-2xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">Join the Colorful Bunch</h2>
+      <div class="flex flex-col sm:flex-row w-full max-w-xs sm:max-w-xl gap-2 sm:gap-0">
+        <input type="email" placeholder="Write email" class="flex-grow p-3 bg-white text-black rounded-t-md sm:rounded-l-md sm:rounded-tr-none outline-none">
+        <button class="bg-orange-500 text-white px-6 py-3 rounded-b-md sm:rounded-r-md sm:rounded-bl-none hover:bg-orange-600">Subscribe</button>
       </div>
     </div>
   </section>
-  <footer class="bg-[#F5F8FF] py-12 px-4 md:px-16">
-    <div class="flex flex-col md:flex-row justify-between items-start gap-10">
+  <footer class="bg-[#F5F8FF] py-8 sm:py-12 px-2 sm:px-4 md:px-16">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-6 sm:gap-10">
       <div>
         <img src="assets/logo.png" alt="Logo" class="mb-4">
         <p class="text-lg text-[#626366]" style="font-family: 'Inter', sans-serif;">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.</p>
       </div>
-      <div class="grid grid-cols-2 gap-10">
+      <div class="grid grid-cols-2 gap-4 sm:gap-10">
         <div>
           <ul class="space-y-2">
             <li><a href="#" class="text-[#626366]">Home</a></li>
@@ -181,7 +181,7 @@
           </ul>
         </div>
       </div>
-      <div class="flex flex-row items-center gap-6 ">
+      <div class="flex flex-row items-center gap-3 sm:gap-6 ">
         <img src="assets/icon-facebook.png" alt="">
         <img src="assets/icon-linkedin.png" alt="">
         <img src="assets/icon-twitter.png" alt="">
